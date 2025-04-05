@@ -76,4 +76,21 @@ This project demonstrates the incredible potential of CDKTF with TypeScript. Lea
    # Confirm its indeed installed
    yarn info typescript version 
    ```
-
+4. Install Terraform CLI
+   ```
+   brew tap hashicorp/tap
+   brew install hashicorp/tap/terraform
+   brew update
+   ```
+5. Install CDKTF CLI
+   ```
+   npm install -g cdktf-cli
+   ```
+6. Verify CDKTF version
+   ```
+   cdktf --version
+   ```
+7. From an empty directory like `cdktf-fundamentals` or a new one create a new CDKTF project using local provider or remote provider of your choice. Here we will use the local provider.
+   ```
+   cdktf init --template=typescript
+   ```
