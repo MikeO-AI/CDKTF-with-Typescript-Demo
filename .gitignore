@@ -1,3 +1,6 @@
+# Java dependencies
+node_modules/
+
 # Compiled class file
 *.class
 
